@@ -1,0 +1,91 @@
+/* Animation Duration */
+.animation {
+  animation-duration: var(--animation-duration);
+
+  &.shorter {
+    animation-duration: var(--animation-duration-shorter);
+  }
+
+  &.short {
+    animation-duration: var(--animation-duration-short);
+  }
+
+  &.long {
+    animation-duration: var(--animation-duration-long);
+  }
+
+  &.longer {
+    animation-duration: var(--animation-duration-longer);
+  }
+}
+
+/* Animation Delay */
+.delay {
+  animation-delay: var(--animation-duration);
+
+  &-shorter {
+    animation-delay: var(--animation-duration-shorter);
+  }
+
+  &-short {
+    animation-delay: var(--animation-duration-short);
+  }
+
+  &-long {
+    animation-delay: var(--animation-duration-long);
+  }
+
+  &-longer {
+    animation-delay: var(--animation-duration-longer);
+  }
+}
+
+/* Animation Filling Mode */
+.animation {
+  animation-fill-mode: var(--animation-fill-mode);
+
+  &.both {
+    animation-fill-mode: both;
+  }
+
+  &.backwards {
+    animation-fill-mode: backwards;
+  }
+
+  &.forwards {
+    animation-fill-mode: forwards;
+  }
+}
+
+/* Animation Timing Functio  */
+.animation {
+  animation-timing-function: var(--animation-timing-function);
+
+  &.linear {
+    animation-timing-function: linear;
+  }
+
+  &.ease {
+    animation-timing-function: ease;
+  }
+
+  &.ease-in {
+    animation-timing-function: ease-in;
+  }
+
+  &.ease-out {
+    animation-timing-function: ease-out;
+  }
+
+  &.ease-in-out {
+    animation-timing-function: ease-in-out;
+  }
+
+  &.step-start {
+    animation-timing-function: step-start;
+  }
+
+  &.step-end {
+    animation-timing-function: step-end;
+  }
+}

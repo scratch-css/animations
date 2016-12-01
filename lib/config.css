@@ -1,0 +1,28 @@
+/** Animations */
+:root {
+  --animation-duration: var(--transition-duration);
+  --animation-sequence: var(--transition-sequence);
+
+  --animation-timing-function: ease;
+  --animation-fill-mode: none;
+
+  --animation-duration-shorter: calc(
+    var(--animation-duration-short) /
+    var(--animation-sequence)
+  );
+
+  --animation-duration-short: calc(
+    var(--animation-duration) /
+    var(--animation-sequence)
+  );
+
+  --animation-duration-long: calc(
+    var(--animation-duration) *
+    var(--animation-sequence)
+  );
+
+  --animation-duration-longer: calc(
+    var(--animation-duration-long) *
+    var(--animation-sequence)
+  );
+}
