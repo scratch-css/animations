@@ -1,0 +1,77 @@
+.animation.fade-out {
+  animation-name: fade-out;
+}
+
+@keyframes fade-out {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+.animation.fade-out-up {
+  animation-name: fade-out-up;
+}
+
+@keyframes fade-out-up {
+  0% {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translate3d(0, 100%, 0);
+    opacity: 0;
+  }
+}
+
+.animation.fade-out-down {
+  animation-name: fade-out-down;
+}
+
+@keyframes fade-out-down {
+  0% {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translate3d(0, -100%, 0);
+    opacity: 0;
+  }
+}
+
+.animation.fade-out-left {
+  animation-name: fade-out-left;
+}
+
+@keyframes fade-out-left {
+  0% {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translate3d(100%, 0, 0);
+    opacity: 0;
+  }
+}
+
+.animation.fade-out-right {
+  animation-name: fade-out-right;
+}
+
+@keyframes fade-out-right {
+  0% {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translate3d(-100%, 0, 0);
+    opacity: 0;
+  }
+}
