@@ -4,7 +4,7 @@
   --animation-sequence: var(--transition-sequence);
 
   --animation-timing-function: ease;
-  --animation-fill-mode: none;
+  --animation-fill-mode: both;
 
   --animation-duration-shorter: calc(
     var(--animation-duration-short) /
