@@ -1,6 +1,7 @@
 /* Animation Duration */
 .animation {
   animation-duration: var(--animation-duration);
+  animation-fill-mode: var(--animation-fill-mode);
 
   &.shorter {
     animation-duration: var(--animation-duration-shorter);
